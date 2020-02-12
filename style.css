@@ -18,6 +18,7 @@ width: 100%;
     stroke-width: 10;
     /* comprimento da esquadria */
     stroke-miterlimit: 10;
+    
 }
 
 .mid-circle{
@@ -55,7 +56,7 @@ width: 100%;
 
 /* area do circulo e centrar os ponteiros */
 .sizing-box{
-    fill: none;
+    fill: none;    
 }
 
 /* rotação dos ponteiros no centro do circulo */
