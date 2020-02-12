@@ -1,0 +1,66 @@
+.main{
+    display: flex;
+    /* relativo ao tamanho da fonte - x2 */
+    padding: 2em;
+    /* relativo a 90% da altura do viewport  */
+    height: 90vh;
+    justify-content: center;
+    align-items: middle;
+}
+
+.clockbox, #clock {
+width: 100%;
+}
+
+.circle{
+    fill:none;
+    stroke:blue;
+    stroke-width: 9;
+    /* comprimento da esquadria */
+    stroke-miterlimit: 10;
+}
+
+.mid-circle{
+    fill: none;    
+}
+
+.hour-marks{
+    fill: none;
+    stroke: blue;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.hour-arm{
+    fill: none;
+    stroke: blue;
+    stroke-width: 17;
+    stroke-miterlimit: 10;       
+}
+
+.minute-arm{
+    fill: none;
+    stroke: blue;
+    stroke-width: 11;
+    stroke-miterlimit: 10;       
+}
+
+
+.second-arm{
+    fill: none;
+    stroke: blue;
+    stroke-width: 4;
+    stroke-miterlimit: 10;       
+}
+
+/* area do circulo */
+.sizing-box{
+    fill: none;
+}
+
+/* rotação dos ponteiros no centro do circulo */
+#hour, #minute, #second{
+    transform-origin: 300px 300px;
+    transition: transform .5s ease-in-out;
+} 
+
