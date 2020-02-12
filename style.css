@@ -27,21 +27,21 @@ width: 100%;
 
 .hour-marks{
     fill: none;
-    stroke: blue;
+    stroke: rgb(121, 121, 121);
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .hour-arm{
     fill: none;
-    stroke: blue;
+    stroke: rgb(121, 121, 121);
     stroke-width: 17;
     stroke-miterlimit: 10;       
 }
 
 .minute-arm{
     fill: none;
-    stroke: blue;
+    stroke: rgb(121, 121, 121);
     stroke-width: 11;
     stroke-miterlimit: 10;       
 }
@@ -49,7 +49,7 @@ width: 100%;
 
 .second-arm{
     fill: none;
-    stroke: blue;
+    stroke: rgb(194, 106, 106);
     stroke-width: 4;
     stroke-miterlimit: 10;       
 }
