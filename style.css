@@ -1,3 +1,6 @@
+
+/* !--------------------Main----------------------- */
+
 .main{
     display: flex;
     /* relativo ao tamanho da fonte - x2 */
@@ -12,18 +15,32 @@
 width: 100%;
 }
 
+/* .dot {
+    height: 19px;
+    width: 19px;
+    border: 2px solid black;    
+    background-color: rgb(194, 106, 106);
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    left: 150px;
+    bottom: 250px;
+  }   */
+
+  
 .circle{
     fill:none;
     stroke:blue;
     stroke-width: 10;
     /* comprimento da esquadria */
-    stroke-miterlimit: 10;
-    
+    stroke-miterlimit: 10;    
 }
 
 .mid-circle{
     fill: none;    
 }
+
+/* !--------------------Marks----------------------- */
 
 .hour-marks{
     fill: none;
@@ -32,20 +49,21 @@ width: 100%;
     stroke-miterlimit: 10;
 }
 
+/* !--------------------Arms----------------------- */
+
 .hour-arm{
     fill: none;
-    stroke: rgb(121, 121, 121);
+    stroke: rgb(121, 121, 121);    
     stroke-width: 17;
-    stroke-miterlimit: 10;       
+    stroke-miterlimit: 10;               
 }
 
 .minute-arm{
     fill: none;
     stroke: rgb(121, 121, 121);
     stroke-width: 11;
-    stroke-miterlimit: 10;       
+    stroke-miterlimit: 10;          
 }
-
 
 .second-arm{
     fill: none;
@@ -53,6 +71,8 @@ width: 100%;
     stroke-width: 4;
     stroke-miterlimit: 10;       
 }
+
+/* !--------------------Area----------------------- */
 
 /* area do circulo e centrar os ponteiros */
 .sizing-box{
