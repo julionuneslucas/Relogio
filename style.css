@@ -1,6 +1,12 @@
 
 /* !--------------------Main----------------------- */
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .main{
     display: flex;
     /* relativo ao tamanho da fonte - x2 */
